@@ -1,0 +1,16 @@
+h2 {
+    width: 250px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.card {
+    display: flex;
+    justify-content: end;
+    align-items: stretch;
+    flex-wrap: wrap;
+}

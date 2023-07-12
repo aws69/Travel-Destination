@@ -1,14 +1,31 @@
-div{
-    margin: 50px auto ;
-    align-items: center;
+.mainlist {
+    width: 100%;
+    display: flex;
+}
+
+.tour {
+    width: 100%;
+    display: flex;
     justify-content: center;
+    padding-bottom: 15%;
+    padding-top: 10%;
+
 }
-img {
-    width: 370px;
+
+.tour h2 {
+    width: 250px;
+    height: 10px;
+
+}
+
+.tour img {
+    display: flex;
+    width: 250px;
     height: 300px;
+    border-radius: 30%;
+    padding: 10px;
 }
 
-p{
-    color: red ;
-
+.tour button {
+    width: 100px;
 }

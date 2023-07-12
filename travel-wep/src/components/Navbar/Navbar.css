@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    background-color: #3f95ce;
+    width:1450px;
+    height: 80px;
+    padding: auto;
+    margin:auto;
+    
+}
+nav a{
+    font-size:x-large;
+    margin-left: 400px;
+    position:relative;
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:double;
+}
+
+nav a:link {
+    color: red;
+}
+  
+nav a:visited {
+    color: rgb(253, 253, 253);
+}
+nav a:hover {
+    color: hotpink;
+}
+nav a:active {
+    color: rgb(0, 255, 8);
+}
