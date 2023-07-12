@@ -4,14 +4,17 @@ import Header from "./header/Header";
 import Tours from "./tours/Tours";
 import Footer from "./footer/Footer";
 
-function Home(){
-    return(
+
+function Home(props) {
+
+    return (
         <div>
             <Header />
-            <Tours data={data} />
+            <Tours DATA1={props.DATA} />
             <Footer />
+
         </div>
     );
-};
+}
 
 export default Home;
