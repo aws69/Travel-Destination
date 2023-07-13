@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useState } from 'react';
 
 import Header from '../header/Header';
-import ".TourDetails/TourDetails.css";
+import "../TourDetails/TourDetails.css";
 
 function TourDetails(props){
     const { id } = useParams() 

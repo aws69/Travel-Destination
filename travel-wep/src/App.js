@@ -1,9 +1,9 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 
-import Header from "./components/header/Header";
+import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
-import Tours from "./components/tours/Tours";
+import TourDetails from './components/TourDetails/TourDetails';
 
 import data from "./data/db.json";
 import Navbar from './components/Navbar/Navbar';
@@ -15,8 +15,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home DATA={data} />} />
-        <Route path='/Header' element={<Header />} />
-        <Route path='/Tours' element={<Tours />} />
         <Route path='/city/:id' element={<TourDetails DATA={data} />} />
         <Footer />
       </Routes>

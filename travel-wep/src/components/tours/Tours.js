@@ -1,6 +1,6 @@
 
 import Tour from "./tour/Tour";
-import ".tours/Tours.css";
+import "../tours/Tours.css";
 
 function Tours(props) {
 

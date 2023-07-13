@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import "./Tour.css";
+import "../tour/Tour.css";
 
 function Tour(props) {
     return (
